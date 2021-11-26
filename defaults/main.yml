@@ -1,4 +1,4 @@
 ---
 # variables
-# selinux stat allowed , enforcing , permissive , disabled 
- selinux_state: permissive
+# selinux stat allowed , enforcing , permissive , disabled
+selinux_state: permissive

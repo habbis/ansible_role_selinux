@@ -1,7 +1,5 @@
 ---
-# tasks
----
-- name:  selinux config 
+- name: selinux config
   ansible.builtin.template:
     src: templates/config.j2
     dest: /etc/selinux/config
@@ -9,4 +7,3 @@
     group: root
     mode: '0644'
   when: (ansible_pkg_mgr == "yum") or (ansible_pkg_mgr == "dnf")
-
