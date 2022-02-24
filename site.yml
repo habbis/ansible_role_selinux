@@ -10,7 +10,7 @@
   #hosts: all
   vars_files:
     -  defaults/main.yml
-    ##-  defaults/secrets.yml
+    #-  defaults/secrets.yml
 
   roles:
     - { role: ../ansible_role_selinux }
